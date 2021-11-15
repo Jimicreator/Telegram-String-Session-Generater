@@ -31,7 +31,7 @@ PHONE_NUMBER_TEXT = (
 )
 
 
-UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'Mr_Bot_Developer')
+UPDATES_CHANNEL = os.environ.get('UPDATES_CHANNEL', 'Jimi_Bots')
 
 @bot.on_message(filters.private & filters.command("start"))
 async def genStr(_, msg: Message):
