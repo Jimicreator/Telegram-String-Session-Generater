@@ -175,7 +175,7 @@ async def genStr(_, msg: Message):
         return
     try:
         session_string = await client.export_session_string()
-        await client.send_message("me", f"#PYROGRAM #STRING_SESSION ✅\n\n```{session_string}``` \n\nBy [@MD_StringSession_Bot](tg://openmessage?user_id=1637779993) \nA Bot By @Jimi_Bots")
+        await client.send_message("me", f"#PYROGRAM #STRING_SESSION ✅\n\n```{session_string}``` \n\nBy [@Jimi_Bots](tg://openmessage?user_id=1637779993) \nA Bot By @Jimi_Bots")
         await client.disconnect()
         text = "String Session is Successfully ✅ Generated.\nClick on Below Button."
         reply_markup = InlineKeyboardMarkup(
